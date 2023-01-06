@@ -1,0 +1,120 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* CSS for header section */
+.header {
+    height: 800px;
+    width: 100%;
+    background-image: url(../images/banner/banner1.png);
+    background-repeat: no-repeat;
+}
+
+.banner-text-div {
+    width: 80%;
+    margin: auto;
+    text-align: right;
+    display: flex;
+    justify-content: end;
+}
+
+.banner-text-div div {
+    width: 40%;
+}
+
+.banner-text-div h1 {
+    font-weight: 700;
+    font-size: 65px;
+    color: #151414;
+    padding-top: 215px;
+
+}
+
+.banner-text-div p {
+    margin-top: 25px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #444343;
+}
+
+.banner-text-div button {
+    margin-top: 32px;
+    font-weight: 600;
+    font-size: 20px;
+    background: #F15B22;
+    color: #FFFFFF;
+    padding: 20px 25px;
+    border-style: none;
+    border-radius: 8px;
+}
+
+/* CSS for main section where multiple content exists */
+.main {
+    height: 1500px;
+    width: 80%;
+    margin: 0px auto;
+}
+
+/* section my failure start*/
+.my-failure-section {
+    margin-top: 130px;
+    display: flex;
+    gap: 88px;
+}
+
+.failure-image {
+    width: 525px;
+    height: 525px;
+}
+
+.failure-content {
+    padding: 240px 0px 0px;
+}
+
+.failure-content div{
+    height: 400px;
+    width: 415px;
+}
+
+.failure-content div .tittle-div{
+    width: 290px;
+    height: 95px;
+    margin-bottom: 24px;
+}
+
+.failure-content div .para-div{
+    width: 400px;
+    height: 105px
+}
+
+.failure-content div .para-div .list{
+    padding-left: 20px;
+    padding-bottom: 5px;
+}
+
+.failure-content h3 {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+}
+
+.failure-content p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+}
+/* section my failure end */
+/* My plan Section Start */
+.my-plan-section{
+    margin-top: 130px;
+    display: flex;
+}
+/* My plan Section End */
+
+
+/* CSS for footer section */
+.footer {
+    height: 570px;
+    width: 100%;
+}
