@@ -72,23 +72,23 @@
     padding: 240px 0px 0px;
 }
 
-.failure-content div{
+.failure-content div {
     height: 400px;
     width: 415px;
 }
 
-.failure-content div .tittle-div{
+.failure-content div .tittle-div {
     width: 290px;
     height: 95px;
     margin-bottom: 24px;
 }
 
-.failure-content div .para-div{
+.failure-content div .para-div {
     width: 400px;
     height: 105px
 }
 
-.failure-content div .para-div .list{
+.failure-content div .para-div .list {
     padding-left: 20px;
     padding-bottom: 5px;
 }
@@ -104,17 +104,108 @@
     font-size: 16px;
     color: #444343;
 }
+
 /* section my failure end */
 /* My plan Section Start */
-.my-plan-section{
+.my-plan-section {
     margin-top: 130px;
     display: flex;
+    flex-direction: column;
 }
-/* My plan Section End */
 
+.my-plan-section div h3 {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    text-align: center;
+}
+
+.plan-skill-details {
+    display: flex;
+    justify-content: space-between;
+    gap: 85px;
+    text-align: center;
+
+}
+
+.skill-details {
+    margin-top: 30px;
+}
+
+.skill-details img {
+    margin-top: 25px;
+}
+
+.skill-details h5 {
+    margin-top: 25px;
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+}
+
+.skill-details p {
+    margin-top: 16px;
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
+
+/* My plan Section End */
+/* Action Section start */
+
+.action {
+    margin-top: 130px;
+}
+
+.action-details {
+    height: 300px;
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url(../images/gradient3.png), url(../images/watch.png);
+    border-radius: 8px;
+}
+
+.action-content {
+    width: 500px;
+    padding-top: 60px;
+    padding-left: 65px;
+}
+
+.action div h3 {
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.action div button {
+    font-weight: 600;
+    font-size: 20px;
+    background: #FFFFFF;
+    color: #F15B22;
+    padding: 20px 25px;
+    border-style: none;
+    border-radius: 8px;
+}
+
+/* Action section end */
 
 /* CSS for footer section */
 .footer {
     height: 570px;
     width: 100%;
+    background-color: #151414;
+}
+
+.footer-content{
+    display: flex;
+    margin: 130px auto 0px;
+    background-color: white;
+    justify-content: center;
+
+}
+.address{
+    padding-top: 130px;
+}
+
+.newsteller{
+    padding-top: 130px;
 }
