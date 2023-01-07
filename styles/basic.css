@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 /* CSS for header section */
@@ -51,7 +52,6 @@
 
 /* CSS for main section where multiple content exists */
 .main {
-    height: 1500px;
     width: 80%;
     margin: 0px auto;
 }
@@ -64,8 +64,10 @@
 }
 
 .failure-image {
+    /* background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%); */
     width: 525px;
     height: 525px;
+    border-radius: 50%;
 }
 
 .failure-content {
@@ -88,9 +90,14 @@
     height: 105px
 }
 
-.failure-content div .para-div .list {
-    padding-left: 20px;
+.failure-content div .para-div p {
     padding-bottom: 5px;
+}
+
+.failure-content div .para-div span{
+    color: #16D887;
+    font-weight: 700;
+    padding-right: 5px;
 }
 
 .failure-content h3 {
@@ -188,24 +195,100 @@
 
 /* Action section end */
 
+/* Partner Section Start */
+.partner-section{
+    margin-top: 130px;
+    height: 300px;
+    border-radius: 8px;    
+}
+
+.partner-section h3{
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    text-align: center;
+}
+
+.partners-logo{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.partners-logo div{
+    object-fit: contain;
+    padding: 20px;
+}
+
+.partners-logo img{
+    height: 100px;
+    width: 100px;
+}
+/* Partner Section End */
+
 /* CSS for footer section */
 .footer {
     height: 570px;
-    width: 100%;
     background-color: #151414;
+    margin-top: 130px;
 }
 
-.footer-content{
+.footer-content {
+    width: 80%;
+    margin: auto;
     display: flex;
-    margin: 130px auto 0px;
-    background-color: white;
-    justify-content: center;
-
-}
-.address{
-    padding-top: 130px;
+    justify-content: space-between;
 }
 
-.newsteller{
+.address {
     padding-top: 130px;
+    width: 40%;
+}
+
+.address h3 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+    margin-bottom: 15px;
+}
+
+.address p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.newsletter {
+    padding-top: 130px;
+    width: 33%;
+}
+
+.newsletter h5 {
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+.newsletter input {
+    margin-top: 30px;
+    width: 325px;
+    height: 65px;
+    border: 2px solid #737272;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    padding-left: 30px;
+    background: #151414;
+    color: #F8F8F8;
+}
+
+.newsletter button {
+    margin-top: 15px;
+    width: 170px;
+    height: 65px;
+    font-weight: 600;
+    font-size: 20px;
+    border-style: none;
+    border-radius: 10px;
+    color: #F15B22;
 }
