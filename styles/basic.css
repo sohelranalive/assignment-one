@@ -64,17 +64,8 @@
 
 .failure-image {
     width: 570px;
-    height: 730px;
-    background: url(../images/person.png);
-    
+    height: 730px;    
 }
-/* .failure-image-background{
-    width: 500px;
-    height: 500px;
-    border-radius: 50%;
-    margin: 230px auto 0px;
-    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%)
-} */
 
 .failure-content{
     margin: 250px 0px 0px;
@@ -128,7 +119,7 @@
 }
 
 .skill-details img {
-    margin-top: 25px;
+    margin-top: 30px;
 }
 
 .skill-details h5 {
@@ -243,6 +234,10 @@
     font-weight: 400;
     font-size: 16px;
     color: #FFFFFF;
+}
+
+.address img{
+    padding: 10px 10px 0px 0px;
 }
 
 .newsletter {
